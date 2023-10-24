@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sq"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/layout_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="@string/salam"
+            android:textSize="60sp"
+            android:textAlignment="textEnd"
+            android:id="@+id/text"
+            android:maxLength="11">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="5p"
+             >
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_ac"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_margin="9dp"
+                android:backgroundTint="#AAA7A7"
+                android:backgroundTintMode="screen"
+                android:text="@string/ac"
+                android:textSize="18sp"
+                app:cornerRadius="60dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_minus"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_margin="9dp"
+                android:backgroundTint="#FFAAA7A7"
+                android:backgroundTintMode="screen"
+                android:text="@string/e"
+                android:textSize="20sp"
+                app:cornerRadius="60dp"
+                tools:ignore="MissingConstraints" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_percent"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_margin="9dp"
+                android:backgroundTint="#FFAAA7A7"
+                android:backgroundTintMode="screen"
+                android:text="@string/r"
+                android:textSize="30sp"
+                app:cornerRadius="60dp"
+                tools:ignore="MissingConstraints" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_division"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_margin="9dp"
+                android:backgroundTint="#FF9800"
+                android:backgroundTintMode="screen"
+                android:text="@string/s"
+                android:textSize="25sp"
+                app:cornerRadius="60dp"
+                tools:ignore="MissingConstraints" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="5p"
+            >
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button7"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_margin="9dp"
+                android:backgroundTint="#404040"
+                android:backgroundTintMode="screen"
+                android:text="@string/_7"
+                android:textSize="30sp"
+                app:cornerRadius="60dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button8"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_margin="9dp"
+                android:backgroundTint="#404040"
+                android:backgroundTintMode="screen"
+                android:text="@string/_8"
+                android:textSize="30sp"
+                app:cornerRadius="60dp"
+                tools:ignore="MissingConstraints" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button9"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_margin="9dp"
+                android:backgroundTint="#404040"
+                android:backgroundTintMode="screen"
+                android:text="@string/_9"
+                android:textSize="30sp"
+                app:cornerRadius="60dp"
+                tools:ignore="MissingConstraints" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_multiplaction"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_margin="9dp"
+                android:backgroundTint="#FF9800"
+                android:backgroundTintMode="screen"
+                android:text="@string/x"
+                android:textSize="25sp"
+                app:cornerRadius="60dp"
+                tools:ignore="MissingConstraints" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="5p">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button4"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_margin="9dp"
+                android:backgroundTint="#404040"
+                android:backgroundTintMode="screen"
+                android:text="@string/_4"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+                android:textSize="30sp"
+                android:theme="@style/Theme.FirstApplication"
+                app:cornerRadius="60dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button5"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_margin="9dp"
+                android:backgroundTint="#404040"
+                android:backgroundTintMode="screen"
+                android:text="@string/_5"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+                android:textSize="30sp"
+                android:theme="@style/Theme.FirstApplication"
+                app:cornerRadius="60dp"
+                tools:ignore="MissingConstraints" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button6"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_margin="9dp"
+                android:backgroundTint="#404040"
+                android:backgroundTintMode="screen"
+                android:text="@string/_6"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+                android:textSize="30sp"
+                android:theme="@style/Theme.FirstApplication"
+                app:cornerRadius="60dp"
+                tools:ignore="MissingConstraints" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_substition"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_margin="9dp"
+                android:backgroundTint="#FF9800"
+                android:backgroundTintMode="screen"
+                android:text="@string/d"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+                android:textSize="40sp"
+                android:theme="@style/Theme.FirstApplication"
+                app:cornerRadius="60dp"
+                tools:ignore="MissingConstraints" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="5p">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button1"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_margin="9dp"
+                android:backgroundTint="#404040"
+                android:backgroundTintMode="screen"
+                android:text="@string/_1"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+                android:textSize="30sp"
+                android:theme="@style/Theme.FirstApplication"
+                app:cornerRadius="60dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button2"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_margin="9dp"
+                android:backgroundTint="#404040"
+                android:backgroundTintMode="screen"
+                android:text="@string/_2"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+                android:textSize="30sp"
+                android:theme="@style/Theme.FirstApplication"
+                app:cornerRadius="60dp"
+                tools:ignore="MissingConstraints" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button3"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_margin="9dp"
+                android:backgroundTint="#404040"
+                android:backgroundTintMode="screen"
+                android:text="@string/_3"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+                android:textSize="30sp"
+                android:theme="@style/Theme.FirstApplication"
+                app:cornerRadius="60dp"
+                tools:ignore="MissingConstraints" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_addition"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_margin="9dp"
+                android:backgroundTint="#FF9800"
+                android:backgroundTintMode="screen"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:text="@string/c"
+                android:textColor="@color/white"
+                android:textSize="35sp"
+                app:cornerRadius="60dp"
+                tools:ignore="MissingConstraints" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="5p">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button0"
+                android:layout_width="160dp"
+                android:layout_height="80dp"
+                android:layout_margin="9dp"
+                android:backgroundTint="#404040"
+                android:backgroundTintMode="screen"
+                android:text="@string/_0"
+                android:textAlignment="textStart"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+                android:textSize="30sp"
+                android:theme="@style/Theme.FirstApplication"
+                app:cornerRadius="60dp" />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_dot"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_margin="9dp"
+                android:backgroundTint="#404040"
+                android:backgroundTintMode="screen"
+                android:text="@string/b"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+                android:textSize="30sp"
+                android:theme="@style/Theme.FirstApplication"
+                app:cornerRadius="60dp"
+                tools:ignore="MissingConstraints" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_equal"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_margin="9dp"
+                android:backgroundTint="#FF9800"
+                android:backgroundTintMode="screen"
+                android:text="@string/a"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+                android:textSize="35sp"
+                android:theme="@style/Theme.FirstApplication"
+                app:cornerRadius="60dp"
+                tools:ignore="MissingConstraints" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
